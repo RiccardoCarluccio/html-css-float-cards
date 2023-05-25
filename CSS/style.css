@@ -33,17 +33,18 @@ p{
     clear: both;
 }
 
+
 .label{
     width: 30%;
     float: left;
     background-color: black;
     box-shadow: 2px 2px 5px black;
-    margin: 40px 20px;
+    margin: 30px 20px;
 }
 
 img{
     float: left;
-    width: 100px;
+    width: 30%;
 }
 
 .data{
@@ -59,6 +60,12 @@ span{
 
 .data span:first-child{
     font-weight: 700;
+    margin-top: 15px;
+}
+
+.data span:last-child{
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .name, .position{
