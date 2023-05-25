@@ -43,18 +43,22 @@ p{
 
 img{
     float: left;
-    width: 150px;
+    width: 100px;
 }
 
 .data{
     float: left;
-    line-height: 50px;
+    line-height: 33px;
 }
 
 span{
     float: left;
     clear: both;
     padding-left: 20px;
+}
+
+.data span:first-child{
+    font-weight: 700;
 }
 
 .name, .position{
