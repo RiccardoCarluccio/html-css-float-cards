@@ -4,22 +4,34 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Comic Neue', cursive;
+}
+
 h1, p{
     text-align: center;
 }
 
-.container::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
-.mini-container{
+.label{
+    width: 33%;
+    float: left;
+    background-color: black;
+    box-shadow: 2px 2px 5px black;
+}
+
+img{
     float: left;
 }
 
-.mini-container::after{
-    content: "";
-    display: table;
+span:not(first-of-type){            /* non funziona */
+    color: white;
+    display: inline-block;
+    float: left;
     clear: both;
 }
