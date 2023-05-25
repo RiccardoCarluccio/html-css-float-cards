@@ -38,7 +38,7 @@ h4{
     width: 30%;
     float: left;
     background-color: black;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 5px rgba(151,154,154,255), -2px -2px 5px rgba(151,154,154,255), -2px 2px 5px rgba(151,154,154,255), 2px -2px 5px rgba(151,154,154,255);
     margin: 30px 20px;
 }
 
