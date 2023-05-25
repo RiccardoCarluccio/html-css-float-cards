@@ -6,6 +6,8 @@
 
 body{
     font-family: 'Comic Neue', cursive;
+    width: 75%;
+    margin: auto;
 }
 
 header{
@@ -14,10 +16,15 @@ header{
 
 h1{
     margin: 50px 0 75px 0;
+    color: rgba(229,49,112,255);
+    font-weight: bold;
+    font-size: 50px;
 }
 
 p{
     margin: 0 0 50px 0;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .clearfix::after{
@@ -27,23 +34,33 @@ p{
 }
 
 .label{
-    width: 33%;
+    width: 30%;
     float: left;
     background-color: black;
     box-shadow: 2px 2px 5px black;
+    margin: 40px 20px;
 }
 
 img{
     float: left;
+    width: 150px;
 }
 
 .data{
-    float: right;
+    float: left;
+    line-height: 50px;
 }
 
 span{
-    color: white;
-    display: inline-block;
     float: left;
     clear: both;
+    padding-left: 20px;
+}
+
+.name, .position{
+    color: white;
+}
+
+.email{
+    color: cadetblue;
 }
