@@ -8,8 +8,16 @@ body{
     font-family: 'Comic Neue', cursive;
 }
 
-h1, p{
+header{
     text-align: center;
+}
+
+h1{
+    margin: 50px 0 75px 0;
+}
+
+p{
+    margin: 0 0 50px 0;
 }
 
 .clearfix::after{
@@ -29,7 +37,11 @@ img{
     float: left;
 }
 
-span:not(first-of-type){            /* non funziona */
+.data{
+    float: right;
+}
+
+span{
     color: white;
     display: inline-block;
     float: left;
